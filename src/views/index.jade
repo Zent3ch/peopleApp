@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+  body
+    a(href='/') index
+    a(href='/usercheck') usercheck
+    a(href='/adduser') usercheck
+    h2 something
+    each user in users
+      ul
+        li=user.firstname
+        li=user.lastname
+        li=user.email
